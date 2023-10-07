@@ -1,0 +1,8 @@
+#container{
+    background-color: #d1d0ca;
+    min-width: 1280px;
+    max-width: 100%;
+    min-height: 80%;
+    max-width: 100%;
+    position: relative;
+}

@@ -1,0 +1,25 @@
+#cabecalho{
+  -webkit-box-shadow:0px 9px 13px 0px rgba(50, 50, 50, 0.44);
+  -moz-box-shadow:0px 9px 13px 0px rgba(50, 50, 50, 0.44);
+  box-shadow:0px 9px 13px 0px rgba(50, 50, 50, 0.44);
+  background-color: #1829F3;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+
+#area_user{
+  font-size: 20px;
+}
+
+#area_user a{
+  text-decoration: none;
+  color: gray;
+ 
+}
+
+#area_user img{
+  width: 40px;
+}
+

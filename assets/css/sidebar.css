@@ -1,0 +1,16 @@
+.a{
+    text-decoration: none;
+
+}
+
+#sidebarOptions{
+    text-decoration: none; 
+    font-size: large;
+}
+
+#sidebarlist a{
+    text-decoration: none; 
+    color: black;
+    padding: 10px;
+    width: auto;
+}

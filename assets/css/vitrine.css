@@ -1,0 +1,29 @@
+.vitrine{
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+#wrapper{
+    display: flex;
+    width: auto;
+    align-items: stretch;
+    background-color: #353940;
+}
+
+#sidebarWindow{
+   /* min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;*/
+    width: 100%;
+    height: auto;
+}
+
+#sidebarWindow.active{
+    margin-left: -250px;
+    
+}
+
+
+#contentWindow{
+    
+}
