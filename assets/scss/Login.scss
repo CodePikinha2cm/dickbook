@@ -1,0 +1,35 @@
+// Import Custom SB Admin 2 Variables (Overrides Default Bootstrap Variables)
+@import "variables";
+
+// Import Bootstrap
+@import "../bootstrap/scss/bootstrap.scss";
+
+// Import Custom SB Admin 2 Mixins and Components
+@import "mixins";
+@import "global";
+@import "utilities";
+
+// Custom Components
+@import "dropdowns";
+@import "navs";
+@import "buttons";
+@import "cards";
+@import "charts";
+@import "login";
+@import "error";
+@import "footer";
+
+
+.body{
+    background-color: $blue;
+}
+
+#arealogin{
+    margin-top: 30%;
+    background-color: $green;
+    padding: 60px;
+    color: $white;
+    min-width: 600px;
+    min-height: 300px;
+    border-radius: 20px;
+}
