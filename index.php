@@ -1,5 +1,6 @@
 <?php
 
+require_once "./configPath.php";
 require_once "./src/View.php";
 require_once "./src/Controller.php";
 
@@ -14,4 +15,8 @@ if (!empty($_GET['url'])) {
 
     $view = new View($path[0]);
     $view->run();
+    return;
 }
+
+$baseUrl = getenv('BASE_URL');
+header("location: {$baseUrl}/login");

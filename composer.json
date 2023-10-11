@@ -1,0 +1,14 @@
+{
+  "name": "leona/dickbook",
+  "autoload": {
+    "psr-4": {
+      "Api\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "CodePikinha2cm",
+      "email": "hospedagenss@gmail.com"
+    }
+  ]
+}
